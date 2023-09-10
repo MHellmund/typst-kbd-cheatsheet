@@ -1,0 +1,113 @@
+Kbd:
+  - i3wm:
+      - Launch:
+        - Terminal: Win-Enter
+        - Application: Win-Space
+        - Help: Win-Shift-?
+        - Browser: Win-Shift-Enter
+        - VS Code: Win-Ctrl-c
+        - Sylpheed Mail: Win-Ctrl-s
+        - Emacs: Win-Ctrl-e
+        - MyBooks: Win-Ctrl-b
+        - Zotero: Win-Ctrl-z
+        - File Browser: Win-Shift-n
+        - Screenshot: Ctrl-PrtSc
+
+      - Navigate:
+        - Relative Window: Win- ↑ ↓ ← →, kjhl
+        - Workspaces: Win-1..9,0, Win-Ctrl 1..9
+        - Next/Prev Workspace: Win-Alt ← →
+        - Scratchpad: Win-Ctrl-a
+        - Window by Name: Win Ctrl Space
+        - Next Free Workspace: Win `
+        - Relative Parent: Win a
+        - Relative Child: Win z
+
+      - Modify:
+        - Resize Mode : Win-r
+        - Carry Window to Workspace 1 - 10        : Win-Alt 1..9, 0
+        - Carry Window to Workspace 11 - 19       : Win-Alt-Ctrl 1..9
+        - Move Window to Workspace 1 - 10 : Win-Shift 1..9, 0
+        - Move Window to Workspace 11 - 19        : Win-Ctrl-Shift 1..9
+        - Move to Scratchpad      : Win-Ctrl-m
+        - Toggle Window Orientation h/v : Win-Backspace
+        - Settings        : Win-c
+        - Tile/Float Focus Toggle : Win-Shift-t 
+        - Window Floating Toggle  : Win-Shift-f
+        - Window Fullscreen Toggle        : Win-f
+        - Window Layout Mode      : Win-t
+        - Window Position : Win-Shift h j k l
+        - "" : Win-Shift ↑ ↓ ← →
+        - Move Window to Next Free WS : Win-Shift-` 
+        - Carry Window to Next Free WS : Win-Ctrl-` 
+        - Horizontal Window Orientation : Win-g 
+        - Vertical Window Orientation : Win-v 
+
+      - Session:
+        - Exit App : Win-Shift-q
+        - "" : Win-Esc 
+        - Terminate App : Win-Alt-q
+        - Lock Screen : Win-Shift-s
+        - Logout : Win-Shift-e
+        - Power down: Win-Shift-p
+        - Reload i3 conf : Win-Shift-c
+        - Restart i3 : Win-Ctrl-r
+
+
+  - WezTerm:
+      - Look:
+        - Decrease font size: Ctrl--
+        - Increase font size: Ctrl-=
+        - Reset font size: Ctrl-0
+
+      - Copy & Paste:
+        - Copy to clipboard : Ctrl-Shift-c
+        - Paste            : Ctrl-Shift-v
+        - Copy to PrimarySelection: Ctrl-Insert
+        - Paste from PrimarySelection : Shift-Insert
+        - Quick select : Ctrl-Shift-Space
+        - Copy mode : Ctrl-Shift-x
+        - Exit copy mode/quick select : Esc
+        - $twocolumn : in copy mode
+        - Cell selection : v
+        - Line selection : Shift-v
+        - Rectangular selection : Ctrl-v
+        - Move : ↑ ↓ ← →, kjhl
+        - Move forw/backw word : Tab/Shift-Tab
+        - Move start of line : "0"  # that must be a String, not an Int
+        - Move end of line : $
+        - Move top/bottom of scrollback : g/Shift-g
+        - Move top/mid/bot of viewport : Shift-H,M,L
+        - Move up/down one screen : PgUp/PgDown; Ctrl-b/f
+
+      - Tabs etc.:
+        - Spawn tab default domain : Alt-Shift-t
+        - Spawn tab current domain : Ctrl-Shift-t
+        - Spawn new window   : Ctrl-Shift-n
+        - Close current tab : Ctrl-Shift-w
+        - Activate tab : Ctrl-Shift-0...9
+        - Activate next/prev tab : Ctrl-Tab/Ctrl-Shift-Tab
+        - Scroll up/down : Shift-PageUp/PageDown
+        - Reload config : Ctrl-Shift-r
+        - Search : Ctrl-Shift-f
+
+
+  - VS Code:
+      - General:
+        - Settings : Ctrl-,
+        - Command palette : Alt-x
+        - "" : Ctrl-Shift-p
+        - Intellisense : Ctr-Space
+        - Split panes : Ctrl-\ 
+        - Move to pane : Ctrl-1,2,3,...
+        - Move to sidebar : Ctrl-0
+        - Move between tabs : Ctrl-PageUp/Down
+        - "" :   Ctrl-Tab
+        - Toggle Console/Editor : Ctrl-`   
+        - Open File (file browser ext.) : Ctrl-x Ctrl-g
+
+      - LaTeX:
+        - View : Ctrl-Alt-v
+        - Goto cursor in PDF : Ctr-Alt-j
+        - Close environment : Ctrl-c ] 
+
