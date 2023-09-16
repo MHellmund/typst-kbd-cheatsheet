@@ -17,7 +17,7 @@ Kbd:
         - Relative Window: Win- ↑ ↓ ← →, kjhl
         - Workspaces: Win-1..9,0, Win-Ctrl 1..9
         - Next/Prev Workspace: Win-Alt ← →
-        - Scratchpad: Win-Ctrl-a
+        - Scratchpad: Win-'
         - Window by Name: Win Ctrl Space
         - Next Free Workspace: Win `
         - Relative Parent: Win a
