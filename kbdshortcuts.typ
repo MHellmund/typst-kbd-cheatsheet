@@ -1,4 +1,4 @@
-#import "@preview/tablex:0.0.5": *
+#import "@preview/tablex:0.0.9": *
 
 
 #let mainfont      = "Charis SIL"
